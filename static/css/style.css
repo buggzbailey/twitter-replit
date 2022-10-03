@@ -1,0 +1,140 @@
+        /*
+Common
+ ******html
+*********/
+        
+        .body {
+            background: url(https://wallpapercave.com/wp/agHMSaj.jpg);
+            background-size: cover;
+            height: 800px;
+            text-align: center;
+        }
+        
+        html,
+        body {
+            height: 100%;
+        }
+        
+        .main-header {
+            text-align: left;
+        }
+        
+        .bg {
+            background: url(https://wallpapercave.com/wp/agHMSaj.jpg);
+            background-size: cover;
+            height: 800px;
+            text-align: center;
+        }
+        
+        .content {
+            max-width: 600px;
+            height: 100%;
+            margin: 0 auto;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            color: white;
+            text-align: left;
+            font-weight: bold;
+            overflow: scroll;
+            background-color: black;
+            opacity: 1;
+        }
+        /*
+Post
+ ***************/
+        
+        .posts {
+            color: white;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        .post_form {
+            padding: 20px 40px;
+            border-bottom: 1px dashed #ccc;
+        }
+        
+        .post_form input {
+            width: 70%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px dotted #ccc;
+        }
+        
+        .post_form textarea {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        
+        .posts ul {
+            padding: 0;
+        }
+        
+        .posts li {
+            display: flex;
+            border-bottom: 1px dashed #cccccc;
+            padding: 17px;
+            list-style: none;
+            position: relative;
+        }
+        
+        .posts li .menu_icon {
+            width: 20px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        
+        .posts li .menu {
+            display: none;
+            position: absolute;
+            top: 40px;
+            right: 15px;
+            border: 1px solid #ccc;
+            background-color: white;
+            padding: 10px 15px;
+            font-size: 13px;
+            border-radius: 3px;
+        }
+        
+        .posts li .menu a {
+            text-decoration: none;
+        }
+        
+        .posts li .logo {
+            height: 50px
+        }
+        
+        .posts li .logo img {
+            position: left;
+            height: 50px;
+        }
+        
+        .posts li .name_body {
+            flex-basis: 85%;
+        }
+        
+        .posts li .name_body .name {
+            font-weight: bold;
+            color: white;
+        }
+        
+        .posts li .name_body .datetime {
+            color: gray;
+        }
+        
+        @media screen and (max-width: 500px) {
+            .posts li .name_body .name {
+                font-size: 20px;
+            }
+        }
+        
+        .form-control {
+            background-color: white;
+            color: black;
+        }
+        
+        .font-primary {
+            color: white;
+        }
