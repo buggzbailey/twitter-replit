@@ -1,5 +1,5 @@
 # django-twiiter
-Check out [LIVE DEMO](https://django-twitter-t.herokuapp.com/) here!!
+Check out [LIVE DEMO](https://twitter-replit.trevoreedockery.repl.co/) here!!
 ## Tech used
 ```
 * Html
